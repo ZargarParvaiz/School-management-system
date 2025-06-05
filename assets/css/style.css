@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #4e73df;
+    --secondary-color: #858796;
+    --success-color: #1cc88a;
+    --info-color: #36b9cc;
+    --warning-color: #f6c23e;
+    --danger-color: #e74a3b;
+    --button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --button-hover-transform: scale(1.05);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fc;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: var(--button-shadow);
+}
+
+.card-body {
+    border-radius: 15px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: var(--button-shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2e59d9;
+    transform: var(--button-hover-transform);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+/* Dashboard Styles */
+.sidebar {
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--primary-color) 0%, #28eeee 100%);
+    box-shadow: var(--button-shadow);
+}
+
+.sidebar-brand {
+    padding: 1.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    margin: 0.2rem 0;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: var(--button-hover-transform);
+}
+
+.nav-link.active {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Card Styles */
+.dashboard-card {
+    border-left: 4px solid;
+    border-radius: 10px;
+    box-shadow: var(--button-shadow);
+    transition: transform 0.2s;
+}
+
+.dashboard-card.primary {
+    border-left-color: var(--primary-color);
+}
+
+.dashboard-card.success {
+    border-left-color: var(--success-color);
+}
+
+.dashboard-card.info {
+    border-left-color: var (--info-color);
+}
+
+.dashboard-card.warning {
+    border-left-color: var(--warning-color);
+}
+
+.dashboard-card:hover {
+    transform: var(--button-hover-transform);
+}
+
+.school-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 0;
+      color: #555;
+    }
+
+.topbar-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;         
+    }
+@media (min-width: 768px) {
+.topbar-container {
+    justify-content: space-between;
+      }
+    }
+
+.topbar-logo {
+      height: 45px; 
+      margin-top: 20px;
+    }
