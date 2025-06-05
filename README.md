@@ -5,10 +5,10 @@ Welcome to the **School Management System (SMS)** — a web-based platform desig
 ## 📸 Screenshots
 
 ### 🔐 Login Page  
-
+![Login Page](screenshots/login.png)
 
 ### 📊 Dashboard  
-
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
