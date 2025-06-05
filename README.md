@@ -22,7 +22,7 @@ Welcome to the **School Management System (SMS)** — a web-based platform desig
 - 📑 **Results Management**
 - 📖 **Subjects Management**
 - 💵 **Payment Management**
-- 🔒 **Secure Password Recovery (with OTP)**
+
 
 ---
 
@@ -41,4 +41,4 @@ Welcome to the **School Management System (SMS)** — a web-based platform desig
         payments.php
     /assets/                # CSS, JS, Images
     /includes/              # Database connection and core logic
-    /forgotpassword.php     # OTP-based password recovery
+    
